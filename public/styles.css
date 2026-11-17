@@ -1,0 +1,12 @@
+:root{font-family:ui-sans-serif,system-ui,-apple-system,"SF Pro Text",sans-serif;color:#162238;background:#f2f5f8}
+*{box-sizing:border-box}body{margin:0;min-height:100vh}.wrap{max-width:850px;margin:30px auto;padding:0 18px 30px}
+header{display:flex;align-items:center;justify-content:space-between;margin-bottom:24px;gap:12px}
+h1{font-size:1.5rem;letter-spacing:-.02em;margin:0}.eyebrow{font-size:.73rem;text-transform:uppercase;color:#68768d;letter-spacing:.12em;font-weight:700;margin-bottom:7px}
+.card{background:#fff;border:1px solid #e0e5ec;border-radius:16px;padding:20px;margin:14px 0;box-shadow:0 5px 20px #2539560b}
+label{display:block;font-size:.83rem;font-weight:650;color:#3d4d65;margin-bottom:6px}input{width:100%;padding:12px 13px;border:1px solid #c7d1df;border-radius:9px;background:#fff;color:#1c2940;font-size:1rem;margin-bottom:14px}
+button{background:#1c5db3;color:white;border:0;border-radius:9px;padding:11px 16px;font-weight:650;cursor:pointer;font-size:.94rem}button:hover{background:#174c92}button.secondary{background:#e9eff7;color:#27425e}button.danger{background:#ad3535}.row{display:flex;align-items:center;justify-content:space-between;gap:14px;flex-wrap:wrap}.muted{color:#65738a;font-size:.87rem;line-height:1.5}.mini{font-size:.78rem}small{color:#65738a}
+.hidden{display:none!important}.pill{display:inline-flex;gap:6px;align-items:center;font-size:.78rem;padding:5px 10px;border-radius:20px;background:#edf2f7;color:#456}.pill.good{background:#e1f3e9;color:#216744}.pill.warning{background:#fff1d7;color:#8c5a15}.pill.bad{background:#ffe9e8;color:#942a2a}
+#map{height:360px;width:100%;border-radius:12px;background:#e7ecf1;overflow:hidden;margin:13px 0}.statgrid{display:grid;grid-template-columns:1fr 1fr;gap:10px}.stat{padding:13px;background:#f5f7fa;border-radius:10px}.stat b{font-size:.95rem;display:block;margin-top:5px}.error{color:#a12222}.success{color:#18623c}
+@media (max-width:600px){.wrap{margin:16px auto}.card{padding:16px}#map{height:300px}.statgrid{grid-template-columns:1fr 1fr}}
+.confirm{display:flex;align-items:flex-start;gap:10px;font-size:.85rem;font-weight:500;line-height:1.5;padding:11px;background:#eff6fc;border-radius:9px;margin:5px 0 16px}.confirm input{width:18px;height:18px;flex:none;margin:1px 0 0}
+.link-row{display:flex;gap:10px;flex-wrap:wrap;margin:14px 0}.link-row a{display:inline-block;padding:10px 14px;border:1px solid #cbd5e2;background:#f4f7fa;border-radius:9px;color:#23538f;text-decoration:none;font-size:.87rem;font-weight:650}

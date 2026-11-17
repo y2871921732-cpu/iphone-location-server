@@ -1,0 +1,7 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#e9f4fa"><title>A手机 · 主动位置共享</title><link rel="stylesheet" href="/styles.css"></head>
+<body><main class="wrap"><header><div><div class="eyebrow">A 端 · 同意后共享</div><h1>我的位置共享</h1></div><span class="pill">Safari 测试版</span></header>
+<section class="card"><h2>共享状态</h2><p class="muted">仅在你主动点击开始、且此页面保持打开时获取并上传位置。随时可以点击停止；本页面不会尝试后台隐藏定位。</p>
+<label for="token">A端设备密钥（管理员单独提供，不是B端卡密）</label><input id="token" type="password" placeholder="粘贴设备密钥（不少于24位）" autocomplete="off"><label class="confirm"><input id="consent" type="checkbox">我正在使用自己的手机，并同意向已获得卡密的查看者分享此手机的位置</label>
+<div class="row" style="gap:10px"><button id="start" type="button">开始共享位置</button><button id="stop" type="button" class="danger" disabled>停止共享</button></div><p id="status" class="muted" role="status">未开启位置共享</p></section>
+<section class="card"><h2>最近一次上传</h2><div class="statgrid"><div class="stat"><small>经纬度（WGS84）</small><b id="coords">--</b></div><div class="stat"><small>系统报告精度</small><b id="accuracy">--</b></div><div class="stat"><small>获取时间</small><b id="time">--</b></div><div class="stat"><small>上传状态</small><b id="upload">--</b></div></div><p class="muted mini">测试时会在开始后立即尝试定位，以后页面仍在前台时每3分钟尝试一次。网页进入后台或锁屏时可能暂停运行，不能当作原生iOS后台APP。</p></section>
+<footer class="muted mini">共享只在获得设备持有人明确授权后开始。刷新、离开页面或停止操作可能结束浏览器采集；服务器有心跳超时保护。</footer></main><script src="/device.js"></script></body></html>

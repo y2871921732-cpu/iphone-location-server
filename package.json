@@ -1,0 +1,8 @@
+{
+  "name": "consented-iphone-location-demo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "One-to-one opt-in iPhone location sharing and code-protected mobile viewer",
+  "scripts": { "start": "node server.js" },
+  "engines": { "node": ">=20" }
+}

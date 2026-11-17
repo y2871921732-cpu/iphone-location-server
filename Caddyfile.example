@@ -1,0 +1,5 @@
+# Replace with your real DNS hostname pointed to this server.
+location.example.com {
+  encode gzip
+  reverse_proxy 127.0.0.1:8080
+}
